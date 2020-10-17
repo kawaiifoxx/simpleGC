@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/thunderfox/CLionProjects/simpleGC/main.cpp
+iostream
+-
+sgc_info.h
+/home/thunderfox/CLionProjects/simpleGC/sgc_info.h
+
+/home/thunderfox/CLionProjects/simpleGC/sgc_info.cpp
+sgc_info.h
+/home/thunderfox/CLionProjects/simpleGC/sgc_info.h
+
+/home/thunderfox/CLionProjects/simpleGC/sgc_info.h
+iostream
+-
+

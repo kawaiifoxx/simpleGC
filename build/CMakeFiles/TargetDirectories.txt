@@ -1,0 +1,3 @@
+/home/thunderfox/CLionProjects/simpleGC/build/CMakeFiles/rebuild_cache.dir
+/home/thunderfox/CLionProjects/simpleGC/build/CMakeFiles/edit_cache.dir
+/home/thunderfox/CLionProjects/simpleGC/build/CMakeFiles/simpleGC.dir

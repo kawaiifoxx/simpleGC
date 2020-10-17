@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="simpleGC"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/thunderfox/CLionProjects/simpleGC/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/thunderfox/CLionProjects/simpleGC/build/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/thunderfox/CLionProjects/simpleGC/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/thunderfox/CLionProjects/simpleGC/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/thunderfox/CLionProjects/simpleGC/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/thunderfox/CLionProjects/simpleGC/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/thunderfox/CLionProjects/simpleGC/build/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/thunderfox/CLionProjects/simpleGC/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/thunderfox/CLionProjects/simpleGC/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/thunderfox/CLionProjects/simpleGC/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/thunderfox/CLionProjects/simpleGC/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/thunderfox/CLionProjects/simpleGC/build/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/thunderfox/CLionProjects/simpleGC/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/thunderfox/CLionProjects/simpleGC/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/thunderfox/CLionProjects/simpleGC/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simpleGC">
+				<Option output="/home/thunderfox/CLionProjects/simpleGC/build/libsimpleGC.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/thunderfox/CLionProjects/simpleGC/build"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/thunderfox/CLionProjects/simpleGC/build/Makefile&quot;  VERBOSE=1 simpleGC"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/thunderfox/CLionProjects/simpleGC/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/thunderfox/CLionProjects/simpleGC/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/thunderfox/CLionProjects/simpleGC/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simpleGC/fast">
+				<Option output="/home/thunderfox/CLionProjects/simpleGC/build/libsimpleGC.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/thunderfox/CLionProjects/simpleGC/build"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/thunderfox/CLionProjects/simpleGC/build/Makefile&quot;  VERBOSE=1 simpleGC/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/thunderfox/CLionProjects/simpleGC/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/thunderfox/CLionProjects/simpleGC/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/thunderfox/CLionProjects/simpleGC/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/thunderfox/CLionProjects/simpleGC/sgc_info.cpp">
+			<Option target="simpleGC"/>
+		</Unit>
+		<Unit filename="/home/thunderfox/CLionProjects/simpleGC/sgc_info.h">
+			<Option target="simpleGC"/>
+		</Unit>
+		<Unit filename="/home/thunderfox/CLionProjects/simpleGC/sgc_iterator.cpp">
+			<Option target="simpleGC"/>
+		</Unit>
+		<Unit filename="/home/thunderfox/CLionProjects/simpleGC/sgc_iterator.h">
+			<Option target="simpleGC"/>
+		</Unit>
+		<Unit filename="/home/thunderfox/CLionProjects/simpleGC/sgc_ptr.cpp">
+			<Option target="simpleGC"/>
+		</Unit>
+		<Unit filename="/home/thunderfox/CLionProjects/simpleGC/sgc_ptr.h">
+			<Option target="simpleGC"/>
+		</Unit>
+		<Unit filename="/home/thunderfox/CLionProjects/simpleGC/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
