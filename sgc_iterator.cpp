@@ -66,17 +66,17 @@ sgc_iterator<T> sgc_iterator<T>::operator--() {
 /*Postfix ++*/
 template<class T>
 sgc_iterator<T> sgc_iterator<T>::operator++(int not_used) {
-    auto temp = *this;
+    T *temp = ptr;
     ptr++;
-    return temp;
+    return sgc_iterator<T>(begin, end, temp);
 }
 
 /*Postfix --*/
 template<class T>
 sgc_iterator<T> sgc_iterator<T>::operator--(int not_used) {
-    auto temp = *this;
+    T *temp = ptr;
     ptr++;
-    return temp;
+    return sgc_iterator<T>(begin, end, temp);
 }
 
 /*
@@ -125,6 +125,7 @@ template<class T>
 bool sgc_iterator<T>::operator>(const sgc_iterator &itr2) const {
     return this->ptr > itr2.ptr;
 }
+
 /*
  * Returns iterator pointing to memory location  [<memory location pointed by this iterator> + n].
  * No bound checking is performed in this operation be careful!
@@ -134,6 +135,7 @@ sgc_iterator<T> sgc_iterator<T>::operator+(int n) const {
     ptr += n;
     return *this;
 }
+
 /*Returns difference of two iterators.*/
 template<class T>
 int sgc_iterator<T>::operator-(sgc_iterator<T> itr2) const {

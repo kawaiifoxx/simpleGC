@@ -20,7 +20,7 @@ class sgc_iterator {
     T *end;
     /* points at current object of array */
     T *ptr;
-    unsigned length;
+    unsigned length{};
 
 public:
     sgc_iterator();
