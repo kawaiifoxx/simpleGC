@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/simpleGC.dir/sgc_info.cpp.o"
-  "CMakeFiles/simpleGC.dir/sgc_iterator.cpp.o"
-  "CMakeFiles/simpleGC.dir/sgc_ptr.cpp.o"
+  "CMakeFiles/simpleGC.dir/src/sgc_info.cpp.o"
+  "CMakeFiles/simpleGC.dir/src/sgc_iterator.cpp.o"
+  "CMakeFiles/simpleGC.dir/src/sgc_ptr.cpp.o"
   "libsimpleGC.a"
   "libsimpleGC.pdb"
 )

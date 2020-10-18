@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/thunderfox/CLionProjects/simpleGC/sgc_info.cpp" "/home/thunderfox/CLionProjects/simpleGC/build/CMakeFiles/simpleGC.dir/sgc_info.cpp.o"
-  "/home/thunderfox/CLionProjects/simpleGC/sgc_iterator.cpp" "/home/thunderfox/CLionProjects/simpleGC/build/CMakeFiles/simpleGC.dir/sgc_iterator.cpp.o"
-  "/home/thunderfox/CLionProjects/simpleGC/sgc_ptr.cpp" "/home/thunderfox/CLionProjects/simpleGC/build/CMakeFiles/simpleGC.dir/sgc_ptr.cpp.o"
+  "/home/thunderfox/CLionProjects/simpleGC/src/sgc_info.cpp" "/home/thunderfox/CLionProjects/simpleGC/build/CMakeFiles/simpleGC.dir/src/sgc_info.cpp.o"
+  "/home/thunderfox/CLionProjects/simpleGC/src/sgc_iterator.cpp" "/home/thunderfox/CLionProjects/simpleGC/build/CMakeFiles/simpleGC.dir/src/sgc_iterator.cpp.o"
+  "/home/thunderfox/CLionProjects/simpleGC/src/sgc_ptr.cpp" "/home/thunderfox/CLionProjects/simpleGC/build/CMakeFiles/simpleGC.dir/src/sgc_ptr.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

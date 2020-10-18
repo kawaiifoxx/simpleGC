@@ -82,22 +82,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/thunderfox/CLionProjects/simpleGC/sgc_info.cpp">
+		<Unit filename="/home/thunderfox/CLionProjects/simpleGC/src/sgc_info.cpp">
 			<Option target="simpleGC"/>
 		</Unit>
-		<Unit filename="/home/thunderfox/CLionProjects/simpleGC/sgc_info.h">
+		<Unit filename="/home/thunderfox/CLionProjects/simpleGC/src/sgc_info.h">
 			<Option target="simpleGC"/>
 		</Unit>
-		<Unit filename="/home/thunderfox/CLionProjects/simpleGC/sgc_iterator.cpp">
+		<Unit filename="/home/thunderfox/CLionProjects/simpleGC/src/sgc_iterator.cpp">
 			<Option target="simpleGC"/>
 		</Unit>
-		<Unit filename="/home/thunderfox/CLionProjects/simpleGC/sgc_iterator.h">
+		<Unit filename="/home/thunderfox/CLionProjects/simpleGC/src/sgc_iterator.h">
 			<Option target="simpleGC"/>
 		</Unit>
-		<Unit filename="/home/thunderfox/CLionProjects/simpleGC/sgc_ptr.cpp">
+		<Unit filename="/home/thunderfox/CLionProjects/simpleGC/src/sgc_ptr.cpp">
 			<Option target="simpleGC"/>
 		</Unit>
-		<Unit filename="/home/thunderfox/CLionProjects/simpleGC/sgc_ptr.h">
+		<Unit filename="/home/thunderfox/CLionProjects/simpleGC/src/sgc_ptr.h">
 			<Option target="simpleGC"/>
 		</Unit>
 		<Unit filename="/home/thunderfox/CLionProjects/simpleGC/CMakeLists.txt">

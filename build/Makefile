@@ -143,86 +143,86 @@ simpleGC/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simpleGC.dir/build.make CMakeFiles/simpleGC.dir/build
 .PHONY : simpleGC/fast
 
-sgc_info.o: sgc_info.cpp.o
+src/sgc_info.o: src/sgc_info.cpp.o
 
-.PHONY : sgc_info.o
-
-# target to build an object file
-sgc_info.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simpleGC.dir/build.make CMakeFiles/simpleGC.dir/sgc_info.cpp.o
-.PHONY : sgc_info.cpp.o
-
-sgc_info.i: sgc_info.cpp.i
-
-.PHONY : sgc_info.i
-
-# target to preprocess a source file
-sgc_info.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simpleGC.dir/build.make CMakeFiles/simpleGC.dir/sgc_info.cpp.i
-.PHONY : sgc_info.cpp.i
-
-sgc_info.s: sgc_info.cpp.s
-
-.PHONY : sgc_info.s
-
-# target to generate assembly for a file
-sgc_info.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simpleGC.dir/build.make CMakeFiles/simpleGC.dir/sgc_info.cpp.s
-.PHONY : sgc_info.cpp.s
-
-sgc_iterator.o: sgc_iterator.cpp.o
-
-.PHONY : sgc_iterator.o
+.PHONY : src/sgc_info.o
 
 # target to build an object file
-sgc_iterator.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simpleGC.dir/build.make CMakeFiles/simpleGC.dir/sgc_iterator.cpp.o
-.PHONY : sgc_iterator.cpp.o
+src/sgc_info.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simpleGC.dir/build.make CMakeFiles/simpleGC.dir/src/sgc_info.cpp.o
+.PHONY : src/sgc_info.cpp.o
 
-sgc_iterator.i: sgc_iterator.cpp.i
+src/sgc_info.i: src/sgc_info.cpp.i
 
-.PHONY : sgc_iterator.i
+.PHONY : src/sgc_info.i
 
 # target to preprocess a source file
-sgc_iterator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simpleGC.dir/build.make CMakeFiles/simpleGC.dir/sgc_iterator.cpp.i
-.PHONY : sgc_iterator.cpp.i
+src/sgc_info.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simpleGC.dir/build.make CMakeFiles/simpleGC.dir/src/sgc_info.cpp.i
+.PHONY : src/sgc_info.cpp.i
 
-sgc_iterator.s: sgc_iterator.cpp.s
+src/sgc_info.s: src/sgc_info.cpp.s
 
-.PHONY : sgc_iterator.s
+.PHONY : src/sgc_info.s
 
 # target to generate assembly for a file
-sgc_iterator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simpleGC.dir/build.make CMakeFiles/simpleGC.dir/sgc_iterator.cpp.s
-.PHONY : sgc_iterator.cpp.s
+src/sgc_info.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simpleGC.dir/build.make CMakeFiles/simpleGC.dir/src/sgc_info.cpp.s
+.PHONY : src/sgc_info.cpp.s
 
-sgc_ptr.o: sgc_ptr.cpp.o
+src/sgc_iterator.o: src/sgc_iterator.cpp.o
 
-.PHONY : sgc_ptr.o
+.PHONY : src/sgc_iterator.o
 
 # target to build an object file
-sgc_ptr.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simpleGC.dir/build.make CMakeFiles/simpleGC.dir/sgc_ptr.cpp.o
-.PHONY : sgc_ptr.cpp.o
+src/sgc_iterator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simpleGC.dir/build.make CMakeFiles/simpleGC.dir/src/sgc_iterator.cpp.o
+.PHONY : src/sgc_iterator.cpp.o
 
-sgc_ptr.i: sgc_ptr.cpp.i
+src/sgc_iterator.i: src/sgc_iterator.cpp.i
 
-.PHONY : sgc_ptr.i
+.PHONY : src/sgc_iterator.i
 
 # target to preprocess a source file
-sgc_ptr.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simpleGC.dir/build.make CMakeFiles/simpleGC.dir/sgc_ptr.cpp.i
-.PHONY : sgc_ptr.cpp.i
+src/sgc_iterator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simpleGC.dir/build.make CMakeFiles/simpleGC.dir/src/sgc_iterator.cpp.i
+.PHONY : src/sgc_iterator.cpp.i
 
-sgc_ptr.s: sgc_ptr.cpp.s
+src/sgc_iterator.s: src/sgc_iterator.cpp.s
 
-.PHONY : sgc_ptr.s
+.PHONY : src/sgc_iterator.s
 
 # target to generate assembly for a file
-sgc_ptr.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simpleGC.dir/build.make CMakeFiles/simpleGC.dir/sgc_ptr.cpp.s
-.PHONY : sgc_ptr.cpp.s
+src/sgc_iterator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simpleGC.dir/build.make CMakeFiles/simpleGC.dir/src/sgc_iterator.cpp.s
+.PHONY : src/sgc_iterator.cpp.s
+
+src/sgc_ptr.o: src/sgc_ptr.cpp.o
+
+.PHONY : src/sgc_ptr.o
+
+# target to build an object file
+src/sgc_ptr.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simpleGC.dir/build.make CMakeFiles/simpleGC.dir/src/sgc_ptr.cpp.o
+.PHONY : src/sgc_ptr.cpp.o
+
+src/sgc_ptr.i: src/sgc_ptr.cpp.i
+
+.PHONY : src/sgc_ptr.i
+
+# target to preprocess a source file
+src/sgc_ptr.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simpleGC.dir/build.make CMakeFiles/simpleGC.dir/src/sgc_ptr.cpp.i
+.PHONY : src/sgc_ptr.cpp.i
+
+src/sgc_ptr.s: src/sgc_ptr.cpp.s
+
+.PHONY : src/sgc_ptr.s
+
+# target to generate assembly for a file
+src/sgc_ptr.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simpleGC.dir/build.make CMakeFiles/simpleGC.dir/src/sgc_ptr.cpp.s
+.PHONY : src/sgc_ptr.cpp.s
 
 # Help Target
 help:
@@ -233,15 +233,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... simpleGC"
-	@echo "... sgc_info.o"
-	@echo "... sgc_info.i"
-	@echo "... sgc_info.s"
-	@echo "... sgc_iterator.o"
-	@echo "... sgc_iterator.i"
-	@echo "... sgc_iterator.s"
-	@echo "... sgc_ptr.o"
-	@echo "... sgc_ptr.i"
-	@echo "... sgc_ptr.s"
+	@echo "... src/sgc_info.o"
+	@echo "... src/sgc_info.i"
+	@echo "... src/sgc_info.s"
+	@echo "... src/sgc_iterator.o"
+	@echo "... src/sgc_iterator.i"
+	@echo "... src/sgc_iterator.s"
+	@echo "... src/sgc_ptr.o"
+	@echo "... src/sgc_ptr.i"
+	@echo "... src/sgc_ptr.s"
 .PHONY : help
 
 

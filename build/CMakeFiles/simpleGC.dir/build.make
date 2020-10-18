@@ -77,57 +77,57 @@ include CMakeFiles/simpleGC.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/simpleGC.dir/flags.make
 
-CMakeFiles/simpleGC.dir/sgc_info.cpp.o: CMakeFiles/simpleGC.dir/flags.make
-CMakeFiles/simpleGC.dir/sgc_info.cpp.o: ../sgc_info.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thunderfox/CLionProjects/simpleGC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/simpleGC.dir/sgc_info.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simpleGC.dir/sgc_info.cpp.o -c /home/thunderfox/CLionProjects/simpleGC/sgc_info.cpp
+CMakeFiles/simpleGC.dir/src/sgc_info.cpp.o: CMakeFiles/simpleGC.dir/flags.make
+CMakeFiles/simpleGC.dir/src/sgc_info.cpp.o: ../src/sgc_info.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thunderfox/CLionProjects/simpleGC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/simpleGC.dir/src/sgc_info.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simpleGC.dir/src/sgc_info.cpp.o -c /home/thunderfox/CLionProjects/simpleGC/src/sgc_info.cpp
 
-CMakeFiles/simpleGC.dir/sgc_info.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simpleGC.dir/sgc_info.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thunderfox/CLionProjects/simpleGC/sgc_info.cpp > CMakeFiles/simpleGC.dir/sgc_info.cpp.i
+CMakeFiles/simpleGC.dir/src/sgc_info.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simpleGC.dir/src/sgc_info.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thunderfox/CLionProjects/simpleGC/src/sgc_info.cpp > CMakeFiles/simpleGC.dir/src/sgc_info.cpp.i
 
-CMakeFiles/simpleGC.dir/sgc_info.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simpleGC.dir/sgc_info.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thunderfox/CLionProjects/simpleGC/sgc_info.cpp -o CMakeFiles/simpleGC.dir/sgc_info.cpp.s
+CMakeFiles/simpleGC.dir/src/sgc_info.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simpleGC.dir/src/sgc_info.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thunderfox/CLionProjects/simpleGC/src/sgc_info.cpp -o CMakeFiles/simpleGC.dir/src/sgc_info.cpp.s
 
-CMakeFiles/simpleGC.dir/sgc_iterator.cpp.o: CMakeFiles/simpleGC.dir/flags.make
-CMakeFiles/simpleGC.dir/sgc_iterator.cpp.o: ../sgc_iterator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thunderfox/CLionProjects/simpleGC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/simpleGC.dir/sgc_iterator.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simpleGC.dir/sgc_iterator.cpp.o -c /home/thunderfox/CLionProjects/simpleGC/sgc_iterator.cpp
+CMakeFiles/simpleGC.dir/src/sgc_iterator.cpp.o: CMakeFiles/simpleGC.dir/flags.make
+CMakeFiles/simpleGC.dir/src/sgc_iterator.cpp.o: ../src/sgc_iterator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thunderfox/CLionProjects/simpleGC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/simpleGC.dir/src/sgc_iterator.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simpleGC.dir/src/sgc_iterator.cpp.o -c /home/thunderfox/CLionProjects/simpleGC/src/sgc_iterator.cpp
 
-CMakeFiles/simpleGC.dir/sgc_iterator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simpleGC.dir/sgc_iterator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thunderfox/CLionProjects/simpleGC/sgc_iterator.cpp > CMakeFiles/simpleGC.dir/sgc_iterator.cpp.i
+CMakeFiles/simpleGC.dir/src/sgc_iterator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simpleGC.dir/src/sgc_iterator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thunderfox/CLionProjects/simpleGC/src/sgc_iterator.cpp > CMakeFiles/simpleGC.dir/src/sgc_iterator.cpp.i
 
-CMakeFiles/simpleGC.dir/sgc_iterator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simpleGC.dir/sgc_iterator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thunderfox/CLionProjects/simpleGC/sgc_iterator.cpp -o CMakeFiles/simpleGC.dir/sgc_iterator.cpp.s
+CMakeFiles/simpleGC.dir/src/sgc_iterator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simpleGC.dir/src/sgc_iterator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thunderfox/CLionProjects/simpleGC/src/sgc_iterator.cpp -o CMakeFiles/simpleGC.dir/src/sgc_iterator.cpp.s
 
-CMakeFiles/simpleGC.dir/sgc_ptr.cpp.o: CMakeFiles/simpleGC.dir/flags.make
-CMakeFiles/simpleGC.dir/sgc_ptr.cpp.o: ../sgc_ptr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thunderfox/CLionProjects/simpleGC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/simpleGC.dir/sgc_ptr.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simpleGC.dir/sgc_ptr.cpp.o -c /home/thunderfox/CLionProjects/simpleGC/sgc_ptr.cpp
+CMakeFiles/simpleGC.dir/src/sgc_ptr.cpp.o: CMakeFiles/simpleGC.dir/flags.make
+CMakeFiles/simpleGC.dir/src/sgc_ptr.cpp.o: ../src/sgc_ptr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thunderfox/CLionProjects/simpleGC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/simpleGC.dir/src/sgc_ptr.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simpleGC.dir/src/sgc_ptr.cpp.o -c /home/thunderfox/CLionProjects/simpleGC/src/sgc_ptr.cpp
 
-CMakeFiles/simpleGC.dir/sgc_ptr.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simpleGC.dir/sgc_ptr.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thunderfox/CLionProjects/simpleGC/sgc_ptr.cpp > CMakeFiles/simpleGC.dir/sgc_ptr.cpp.i
+CMakeFiles/simpleGC.dir/src/sgc_ptr.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simpleGC.dir/src/sgc_ptr.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thunderfox/CLionProjects/simpleGC/src/sgc_ptr.cpp > CMakeFiles/simpleGC.dir/src/sgc_ptr.cpp.i
 
-CMakeFiles/simpleGC.dir/sgc_ptr.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simpleGC.dir/sgc_ptr.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thunderfox/CLionProjects/simpleGC/sgc_ptr.cpp -o CMakeFiles/simpleGC.dir/sgc_ptr.cpp.s
+CMakeFiles/simpleGC.dir/src/sgc_ptr.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simpleGC.dir/src/sgc_ptr.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thunderfox/CLionProjects/simpleGC/src/sgc_ptr.cpp -o CMakeFiles/simpleGC.dir/src/sgc_ptr.cpp.s
 
 # Object files for target simpleGC
 simpleGC_OBJECTS = \
-"CMakeFiles/simpleGC.dir/sgc_info.cpp.o" \
-"CMakeFiles/simpleGC.dir/sgc_iterator.cpp.o" \
-"CMakeFiles/simpleGC.dir/sgc_ptr.cpp.o"
+"CMakeFiles/simpleGC.dir/src/sgc_info.cpp.o" \
+"CMakeFiles/simpleGC.dir/src/sgc_iterator.cpp.o" \
+"CMakeFiles/simpleGC.dir/src/sgc_ptr.cpp.o"
 
 # External object files for target simpleGC
 simpleGC_EXTERNAL_OBJECTS =
 
-libsimpleGC.a: CMakeFiles/simpleGC.dir/sgc_info.cpp.o
-libsimpleGC.a: CMakeFiles/simpleGC.dir/sgc_iterator.cpp.o
-libsimpleGC.a: CMakeFiles/simpleGC.dir/sgc_ptr.cpp.o
+libsimpleGC.a: CMakeFiles/simpleGC.dir/src/sgc_info.cpp.o
+libsimpleGC.a: CMakeFiles/simpleGC.dir/src/sgc_iterator.cpp.o
+libsimpleGC.a: CMakeFiles/simpleGC.dir/src/sgc_ptr.cpp.o
 libsimpleGC.a: CMakeFiles/simpleGC.dir/build.make
 libsimpleGC.a: CMakeFiles/simpleGC.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/thunderfox/CLionProjects/simpleGC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libsimpleGC.a"
