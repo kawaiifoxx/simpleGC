@@ -24,12 +24,21 @@ class sgc_info {
     /*length will be 0 if pointer is not array.*/
     unsigned length;
 public:
+    /* Constructor for sgc_info class takes in memory location
+     * and size if pointer points to array of objects
+     * size is a default argument if pointer is not an array
+     * then default size will be zero.
+     */
+    explicit sgc_info(T *mem_ptr, int size = 0);
+
     /*Getter for ref_count*/
     unsigned int get_ref_count() const;
+
     /*Setter for ref_count*/
-    void set_ref_count(unsigned int refCount);
+    void set_ref_count(unsigned int ref_count);
 
-
+    /*operator == overloaded for STL list operations*/
+    bool operator==(sgc_info other);
 };
 
 
