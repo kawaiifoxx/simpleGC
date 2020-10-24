@@ -38,7 +38,9 @@ public:
     void set_ref_count(unsigned int ref_count);
 
     /*operator == overloaded for STL list operations*/
-    bool operator==(sgc_info other);
+    bool operator==(sgc_info other) const;
+    /*Getter for is_array bool*/
+    bool get_is_array() const;
 };
 
 

@@ -26,6 +26,11 @@ void sgc_info<T>::set_ref_count(unsigned int ref_count) {
 }
 
 template<class T>
-bool sgc_info<T>::operator==(sgc_info other) {
+bool sgc_info<T>::operator==(sgc_info other) const {
     return this->mem_ptr == other.mem_ptr;
+}
+
+template<class T>
+bool sgc_info<T>::get_is_array() const {
+    return is_array;
 }
