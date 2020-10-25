@@ -5,7 +5,7 @@
 #ifndef SIMPLEGC_SGC_PTR_H
 #define SIMPLEGC_SGC_PTR_H
 //Uncomment below line to log every allocation and de-allocation in console.
-//#define DEBUG_SGC_PTR
+#define DEBUG_SGC_PTR
 
 #include <iostream>
 #include <list>
