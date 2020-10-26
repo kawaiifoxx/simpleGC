@@ -39,8 +39,15 @@ public:
 
     /*operator == overloaded for STL list operations*/
     bool operator==(sgc_info other) const;
+
     /*Getter for is_array bool*/
     bool get_is_array() const;
+
+    /*Getter for mem_ptr*/
+    T *get_mem_location() const;
+
+    /*Getter for length*/
+    unsigned int size() const;
 };
 
 

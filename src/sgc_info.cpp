@@ -34,3 +34,13 @@ template<class T>
 bool sgc_info<T>::get_is_array() const {
     return is_array;
 }
+
+template<class T>
+T *sgc_info<T>::get_mem_location() const {
+    return mem_ptr;
+}
+
+template<class T>
+unsigned int sgc_info<T>::size() const {
+    return length;
+}
